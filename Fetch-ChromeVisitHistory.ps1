@@ -1,5 +1,5 @@
 param (
-    [string]$DataFolderPath = "C:\Windows\Admin\Data",
+    [string]$DataFolderPath = "C:\Windows\Admin\Data\Chrome\History",
     [string]$ChromeHistoryLogPath = "C:\Windows\Admin\logs"
 )
 
