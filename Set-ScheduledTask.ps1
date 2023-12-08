@@ -25,7 +25,7 @@ $PowerShellPath = (Get-Command PowerShell.exe).Source
 
 $taskExists = Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
 
-if (-null -eq $taskExists) {
+if ($null -eq $taskExists) {
     # PowerShell executable path
     $PowerShellPath = (Get-Command PowerShell.exe).Source
 
